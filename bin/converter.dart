@@ -12,6 +12,6 @@ void main(List<String> arguments) async {
       .toList();
 
   dataConverter.forEach((element) {
-    print("1 UZS = ${element.cbPrice} ${element.code}");
+    print("1 ${element.code} = ${element.cbPrice} UZS");
   });
 }
